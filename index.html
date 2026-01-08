@@ -1,49 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jaballah Chat - Download</title>
+    <title>Jaballah Chat - The Future of Connection</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-                <i class="fa-solid fa-comment-dots"></i>
-                <h1>Jaballah Chat</h1>
-            </div>
-            <p class="tagline">Connect with friends effectively.</p>
-        </header>
+    <nav>
+        <div class="logo">
+            <i class="fa-solid fa-comment-dots"></i>
+            <span>Jaballah Chat</span>
+        </div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#download" class="nav-btn">Download</a>
+        </div>
+    </nav>
 
-        <main>
-            <div class="card">
-                <div class="icon-wrapper">
-                    <i class="fa-brands fa-windows"></i>
-                </div>
-                <h2>Download for Windows</h2>
-                <p>Version 1.0.0 • 64-bit</p>
-                <p class="description">
-                    The modern, real-time chat application built for speed and simplicity. 
-                    Includes anonymous login, image sharing, and more.
-                </p>
-                
-                <a href="JaballahChat_Windows.zip" class="download-btn" download>
-                    <i class="fa-solid fa-download"></i>
-                    Download Installer
+    <header class="hero">
+        <div class="hero-content centered">
+            <span class="badge">New Release 1.0</span>
+            <h1>Connect Without <br><span class="gradient-text">Limits</span>.</h1>
+            <p>Experience real-time messaging with a modern touch. Secure, fast, and beautifully designed for Windows
+                and Android.</p>
+
+            <div class="cta-group centered-buttons">
+                <a href="#download" class="primary-btn pulse-animation">
+                    <i class="fa-solid fa-download"></i> Get Started
                 </a>
-                
-                <div class="requirements">
-                    <small>Requires Windows 10 or later</small>
+                <a href="#features" class="secondary-btn">Learn More</a>
+            </div>
+
+            <div class="stats centered-stats">
+                <div class="stat">
+                    <i class="fa-solid fa-shield-halved accent-icon"></i>
+                    <strong>Secure</strong>
+                </div>
+                <div class="stat">
+                    <i class="fa-solid fa-bolt accent-icon"></i>
+                    <strong>Fast</strong>
+                </div>
+                <div class="stat">
+                    <i class="fa-solid fa-globe accent-icon"></i>
+                    <strong>Global</strong>
                 </div>
             </div>
-        </main>
+        </div>
+    </header>
 
-        <footer>
-            <p>&copy; 2026 Jaballah Chat. Created by Ahmed Jaballah 9B2.</p>
-        </footer>
-    </div>
+    <section id="features" class="features">
+        <h2>Why Jaballah Chat?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="icon-box blue">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <h3>Lightning Fast</h3>
+                <p>Instant message delivery powered by Firebase Firestore real-time capability.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box purple">
+                    <i class="fa-solid fa-user-secret"></i>
+                </div>
+                <h3>Anonymous Login</h3>
+                <p>Jump straight into the action without tedious registration forms.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon-box green">
+                    <i class="fa-solid fa-image"></i>
+                </div>
+                <h3>Rich Media</h3>
+                <p>Share high-quality images and moments instantly with friends.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download-section">
+        <h2>Download Now</h2>
+        <p class="subtitle">Choose your platform and start chatting today.</p>
+
+        <div class="download-grid">
+            <!-- Windows Card -->
+            <div class="platform-card windows">
+                <div class="card-header">
+                    <i class="fa-brands fa-windows"></i>
+                    <h3>Windows</h3>
+                </div>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> Native Performance</li>
+                    <li><i class="fa-solid fa-check"></i> Desktop Notifications</li>
+                    <li><i class="fa-solid fa-check"></i> Large Screen Layout</li>
+                </ul>
+                <a href="JaballahChat_Windows.zip" class="download-btn large-btn" download>
+                    <i class="fa-solid fa-download"></i> Download Installer
+                </a>
+                <small>For Windows 10/11 (64-bit)</small>
+            </div>
+
+            <!-- Android Card -->
+            <div class="platform-card android">
+                <div class="card-header">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Android</h3>
+                </div>
+                <ul class="features-list">
+                    <li><i class="fa-solid fa-check"></i> Mobile Optimized</li>
+                    <li><i class="fa-solid fa-check"></i> Battery Efficient</li>
+                    <li><i class="fa-solid fa-check"></i> Material You Design</li>
+                </ul>
+                <a href="https://drive.google.com/file/d/1JG_JH_YJIINckwkVDu1xaLRcbhG_pDay/view?usp=sharing"
+                    target="_blank" class="download-btn large-btn">
+                    <i class="fa-solid fa-download"></i> Download APK
+                </a>
+                <small>Requires Android 5.0+</small>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <span>Jaballah Chat</span>
+                </div>
+                <p>&copy; 2026 Jaballah Chat.<br>Created by Ahmed Jaballah 9B2.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Follow Us</h3>
+                <div class="socials">
+                    <a href="https://github.com/XdKeerXd/Jaballah-Chat-" target="_blank" class="social-link github">
+                        <i class="fa-brands fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.facebook.com/ahmed.jaballah.31521" target="_blank"
+                        class="social-link facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
