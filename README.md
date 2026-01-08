@@ -29,7 +29,8 @@ This project is designed as a **school project** to demonstrate mobile app devel
 - **Image Picker** – Select profile or chat images
 - **VS Code / Android Studio** – Development IDEs
 
----
 
-## **📁 Project Structure**
+
+<img width="1918" height="999" alt="Screenshot 2026-01-08 144025" src="https://github.com/user-attachments/assets/2ed9d35a-ad04-4c6d-bbce-b3e7656bfe18" />
+<img width="1919" height="1010" alt="image" src="https://github.com/user-attachments/assets/43794bf4-16a5-4fe2-8f7e-c6f501191fe6" />
 
